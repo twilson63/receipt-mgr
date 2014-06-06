@@ -147,7 +147,7 @@ the photo, a map, and the amount and notes of the receipt.
 
 --
 
-```
+``` html
 <ion-view title="Receipt">
   <ion-content class="has-header">
     <ion-list>
