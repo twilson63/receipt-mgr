@@ -6,8 +6,7 @@ module.exports = function(ng) {
     .config(require('./config'))
     .constant('underscore', underscore)
     .factory('db', function() {
-      return pouchdb('receipts');
+      var db = pouchdb('receipts');
+      return db;
     });
-
-    //.controller('ReceiptCtrl', require('./receipt-controller'));
 };
