@@ -1,5 +1,24 @@
 <ion-view title="Receipt">
   <ion-content class="has-header">
-    TODO: Show
+    <ion-list>
+      <ion-item>
+        <h1>Receipt</h1>
+      </ion-item>
+      <ion-item>
+        <label>Location</label>
+        <div>{{receipt.location}}</div>
+      </ion-item>
+      <ion-item>
+        <label>Amount</label>
+        <div>{{receipt.amount | currency}}</div>
+      </ion-item>
+      <ion-item>
+        <label>Notes</label>
+        <div>{{receipt.notes}}</div>
+      </ion-item>
+      <ion-item>
+        <a class="button button-block" ui-sref="receipts.list">Ok</a>
+      </ion-item>
+    </ion-list>
   </ion-content>
 </ion-view>

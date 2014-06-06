@@ -1,11 +1,10 @@
-<ion-view title="Receipts">
+<ion-view title="Receipts" right-buttons="rightButtons">
   <ion-content class="has-header">
-    TODO: List
-
-    <!-- <ion-list>
-      <ion-item ng-repeat="receipt in receipts" type="item-text-wrap" ui-sref="receipts.show({id: receipt._id})">
-        {{receipt.description}}
+    <ion-list>
+      <ion-item ng-repeat="receipt in receipts" type="item-text-wrap"
+        ui-sref="receipts.show({id: receipt._id})">
+        {{receipt.location}}
       </ion-item>
-    </ion-list> -->
+    </ion-list>
   </ion-content>
 </ion-view>

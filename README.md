@@ -178,7 +178,7 @@ the photo, a map, and the amount and notes of the receipt.
 
 ## Build App
 
-```
+``` sh
 cordova build ios
 ```
 
@@ -186,7 +186,7 @@ cordova build ios
 
 ## Emulate App
 
-```
+``` sh
 cordova emulate ios
 ```
 

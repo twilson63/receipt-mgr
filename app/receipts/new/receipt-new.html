@@ -1,6 +1,22 @@
-<ion-view title="New Receipt">
+<ion-view title="New Receipt" right-buttons="rightButtons">
   <ion-content class="has-header">
-    TODO: New
-
+    <div class="list list-inset">
+      <div class="item">
+        <h1>New Receipt</h1>
+        <p>Document your receipt by taking a photo of the receipt and
+          adding the amount to the form.
+        </p>
+      </div>
+      <label class="item item-input">
+        <input type="text" placeholder="location" ng-model="receipt.location">
+      </label>
+      <label class="item item-input">
+        <input type="number" placeholder="amount" ng-model="receipt.amount">
+      </label>
+      <label class="item item-input">
+        <textarea placeholder="notes" style="height: 200px;" ng-model="receipt.notes"></textarea>
+      </label>
+      <button class="item button button-block button-balanced" ng-click="save(receipt)">Save</button>
+    </div>
   </ion-content>
 </ion-view>

@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "install": "bower install",
-    "start": "atomify -d"
+    "start": "atomify -d",
+    "test": "tap app/**/*_test.js"
   },
   "atomify": {
     "js": {
@@ -14,7 +15,7 @@
       "entry": "app/index.css",
       "output": "www/bundle.css",
       "assets": {
-        "prefix": "/fonts/",
+        "prefix": "fonts/",
         "dest": "www/fonts"
       }
     },
@@ -31,5 +32,8 @@
     "domify": "^1.2.2",
     "es3ify": "^0.1.3",
     "underscore": "^1.6.0"
+  },
+  "devDependencies": {
+    "tap": "^0.4.9"
   }
 }
