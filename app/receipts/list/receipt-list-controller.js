@@ -1,6 +1,9 @@
-module.exports = function($scope, db) {
-  console.log('list called');
-//  db.all().then(function(receipts) {
-//    $scope.receipts = receipts;
-//  });
+module.exports = function($scope, db, underscore) {
+  var _ = require('underscore');
+  db.allDocs({include_docs: true}).then(function(res) {
+    var receipts = _(res.rows).pluck('doc');
+    $scope.$apply(function() {
+      $scope.receipts = receipts;
+    });
+  });
 };
