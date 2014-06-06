@@ -22,7 +22,8 @@
       "lr": true,
       "path": "index.html",
       "st": {
-        "path": "www"
+        "path": "www",
+        "cache": false
       }
     }
   },
