@@ -1,0 +1,8 @@
+{
+  "name": "rm2",
+  "version": "0.0.0",
+  "dependencies": {
+    "ionic": "~0.9.27",
+    "pouchdb": "~2.2.3"
+  }
+}
