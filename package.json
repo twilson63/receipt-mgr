@@ -18,11 +18,13 @@
       "lr": true,
       "path": "index.html",
       "st": {
-        "path": "www"
+        "path": "www",
+        "cache": false
       }
     }
   },
   "dependencies": {
+    "domify": "^1.2.2",
     "es3ify": "^0.1.3",
     "underscore": "^1.6.0"
   }
