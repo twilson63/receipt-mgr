@@ -1,0 +1,29 @@
+{
+  "name": "receipt-mgr",
+  "version": "0.0.0",
+  "atomify": {
+    "js": {
+      "entry": "app/index.js",
+      "output": "www/bundle.js"
+    },
+    "css": {
+      "entry": "app/index.css",
+      "output": "www/bundle.css",
+      "assets": {
+        "prefix": "/fonts/",
+        "dest": "www/fonts"
+      }
+    },
+    "server": {
+      "lr": true,
+      "path": "index.html",
+      "st": {
+        "path": "www"
+      }
+    }
+  },
+  "dependencies": {
+    "es3ify": "^0.1.3",
+    "underscore": "^1.6.0"
+  }
+}
