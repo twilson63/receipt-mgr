@@ -1,12 +1,9 @@
-module.exports = function($scope, db) {
+module.exports = function($scope, $ionicPopup) {
   $scope.receipt = {};
   $scope.save = function(receipt) {
-    db.post(receipt)
-      //.then()
-      .then(function() {
-        $scope.$emit('RECEIPT:CREATED', receipt)
-      } //,
-      // ionic alert
-      );
-  }
+    $scope.$emit('RECEIPT:CREATE', receipt);
+  };
+  $scope.$on('RECEIPT:ERROR', function(msg) {
+    $ionicPopup.alert(msg);
+  });
 };
