@@ -1,0 +1,23 @@
+2014-06-06 15:46:33.018 HelloCordova[6237:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-06 15:46:33.078 HelloCordova[6237:a0b] Unlimited access to network resources
+2014-06-06 15:46:33.084 HelloCordova[6237:a0b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-06 15:46:33.915 HelloCordova[6237:a0b] Resetting plugins due to page load.
+2014-06-06 15:46:34.484 HelloCordova[6237:a0b] Finished load of: file:///Users/twilson63/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/5E37D869-FFE6-4493-8C5B-4F0D54F720F1/HelloCordova.app/www/index.html#/receipts/
+Terminating in response to SpringBoard's termination.
+2014-06-06 16:42:13.153 HelloCordova[6455:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-06 16:42:13.173 HelloCordova[6455:a0b] Unlimited access to network resources
+2014-06-06 16:42:13.180 HelloCordova[6455:a0b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-06 16:42:13.313 HelloCordova[6455:a0b] Resetting plugins due to page load.
+2014-06-06 16:42:13.795 HelloCordova[6455:a0b] Finished load of: file:///Users/twilson63/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/5E37D869-FFE6-4493-8C5B-4F0D54F720F1/HelloCordova.app/www/index.html#/receipts/

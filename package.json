@@ -14,7 +14,7 @@
       "entry": "app/index.css",
       "output": "www/bundle.css",
       "assets": {
-        "prefix": "/fonts/",
+        "prefix": "fonts/",
         "dest": "www/fonts"
       }
     },
