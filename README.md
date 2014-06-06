@@ -14,6 +14,8 @@ controls: true
 
 --
 
+![IonicFramework](http://jpg.to/ionicframework)
+
 ### IonicFramework
 
 mobile framework for building cordova/phonegap applications using
@@ -21,7 +23,7 @@ AngularJS
 
 --
 
-Install Instructions can be found:
+Tour of Docs
 
 http://ionicframework.com
 
