@@ -1,8 +1,9 @@
 <ion-view title="Receipt">
   <ion-content class="has-header">
-    <ion-list>
+    <ion-list class="list-inset">
       <ion-item>
-        <h1>Receipt</h1>
+        <image style="height: 200px; width: 200px;" ng-src="{{photo}}" />
+        <i class="ion-loading-c" ng-hide="photo"></i>
       </ion-item>
       <ion-item>
         <label>Location</label>

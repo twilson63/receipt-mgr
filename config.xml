@@ -1,12 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.cordova.hellocordova" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HelloCordova</name>
+<widget id="com.jackhq.receiptmgr" version="0.0.30" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>ReceiptMgr</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Manage/Track your Receipts
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+    <author email="tom@jackhq.com" href="http://www.jackhq.com">
+        Tom Wilson
     </author>
     <content src="index.html" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
     <access origin="*" />
 </widget>

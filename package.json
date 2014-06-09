@@ -1,6 +1,9 @@
 {
   "name": "receipt-mgr",
   "version": "0.0.0",
+  "script": {
+    "build": "atomify -d -s false -e app/index -o www/bundle"
+  },
   "atomify": {
     "js": {
       "entry": "app/index.js",
@@ -10,16 +13,8 @@
       "entry": "app/index.css",
       "output": "www/bundle.css",
       "assets": {
-        "prefix": "/fonts/",
+        "prefix": "fonts/",
         "dest": "www/fonts"
-      }
-    },
-    "server": {
-      "lr": true,
-      "path": "index.html",
-      "st": {
-        "path": "www",
-        "cache": false
       }
     }
   },
