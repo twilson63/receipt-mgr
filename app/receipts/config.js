@@ -19,11 +19,6 @@ module.exports = function($stateProvider) {
       controller: require('./new/receipt-new-controller'),
       template: require('./new/receipt-new.html')
     })
-    .state('receipts.show', {
-      url: '/:id',
-      controller: require('./show/receipt-show-controller'),
-      template: require('./show/receipt-show.html')
-    })
     // show view form
     .state('receipts.show', {
       url: '/:id',

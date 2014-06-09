@@ -4,7 +4,6 @@
         "uninstalled": []
     },
     "config_munge": {
-<<<<<<< HEAD
         "files": {
             "framework": {
                 "parents": {
@@ -57,10 +56,5 @@
             "PACKAGE_NAME": "io.cordova.hellocordova"
         }
     },
-=======
-        "files": {}
-    },
-    "installed_plugins": {},
->>>>>>> 62b8bbc913a317c376a880b560bed2795f4ee581
     "dependent_plugins": {}
 }

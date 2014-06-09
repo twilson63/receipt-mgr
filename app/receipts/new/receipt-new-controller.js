@@ -1,5 +1,10 @@
-module.exports = function($scope, $ionicPopup) {
+module.exports = function($scope, $ionicPopup, place) {
   $scope.receipt = {};
+
+  place().then(function(place) {
+    $scope.receipt.place = place.data;
+    $scope.receipt.location = place.data.display_name;
+  });
 
   $scope.getImage = function() {
     navigator.camera.getPicture(onSuccess, onError, {
