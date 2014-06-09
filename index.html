@@ -406,13 +406,14 @@ pre .chunk {
 </section>
   </div>
   <div class="slide hidden" id="slide-2">
-    <section class="slide-content"><h3 id="ionicframework">IonicFramework</h3>
+    <section class="slide-content"><p><img src="http://jpg.to/ionicframework" alt="IonicFramework"></p>
+<h3 id="ionicframework">IonicFramework</h3>
 <p>mobile framework for building cordova/phonegap applications using
 AngularJS</p>
 </section>
   </div>
   <div class="slide hidden" id="slide-3">
-    <section class="slide-content"><p>Install Instructions can be found:</p>
+    <section class="slide-content"><p>Tour of Docs</p>
 <p><a href="http://ionicframework.com">http://ionicframework.com</a></p>
 </section>
   </div>
@@ -428,6 +429,8 @@ AngularJS</p>
   </div>
   <div class="slide hidden" id="slide-6">
     <section class="slide-content"><h2 id="install-dependencies">Install dependencies</h2>
+<pre><code>npm install atomify -g
+npm install bower -g</code></pre>
 <p><code>npm install</code></p>
 </section>
   </div>
@@ -437,6 +440,15 @@ AngularJS</p>
 </section>
   </div>
   <div class="slide hidden" id="slide-8">
+    <section class="slide-content"><h2 id="application-structure">Application Structure</h2>
+<ul>
+<li>html</li>
+<li>javascript</li>
+<li>css</li>
+</ul>
+</section>
+  </div>
+  <div class="slide hidden" id="slide-9">
     <section class="slide-content"><h2 id="todo">TODO</h2>
 <ul>
 <li>Build New Form</li>
@@ -446,46 +458,43 @@ AngularJS</p>
 <p><strong> Controllers are in place we just need to do the ionic </strong></p>
 </section>
   </div>
-  <div class="slide hidden" id="slide-9">
+  <div class="slide hidden" id="slide-10">
     <section class="slide-content"><h2 id="new-form">New Form</h2>
 <p><code>vim app/receipts/new/receipt-new.html</code></p>
 <p>Create a form that captures the following:</p>
 <ul>
-<li>Photo of Receipt</li>
 <li>Current Location</li>
 <li>Total Amt</li>
 <li>Notes</li>
 </ul>
 </section>
   </div>
-  <div class="slide hidden" id="slide-10">
-    <section class="slide-content"><h2 id="show-view">Show View</h2>
-<p><code>vim app/receipts/show/receipt-show.html</code></p>
-<p>Create a multi-tab show page that shows
-the photo, a map, and the amount and notes of the receipt.</p>
-</section>
-  </div>
   <div class="slide hidden" id="slide-11">
-    <section class="slide-content"><h2 id="list-view">List View</h2>
-<p><code>vim app/receipts/list/receipts-list.html</code></p>
-<p>Create a view that lists the receipts in descending order</p>
+    <section class="slide-content"><p>&lt;ion-view title=&quot;New Receipt&quot;&gt;
+      &lt;ion-content class=&quot;has-header&quot;&gt;
+        &lt;div class=&quot;list list-inset&quot;&gt;
+          &lt;div class=&quot;item&quot;&gt;
+            &lt;h1&gt;New Receipt&lt;/h1&gt;
+            &lt;p&gt;Document your receipt by taking a photo of the receipt and
+              adding the amount to the form.
+            &lt;/p&gt;
+          &lt;/div&gt;
+          &lt;label class=&quot;item item-input&quot;&gt;
+            &lt;input type=&quot;text&quot; placeholder=&quot;location&quot; ng-model=&quot;receipt.location&quot;&gt;
+          &lt;/label&gt;
+          &lt;label class=&quot;item item-input&quot;&gt;
+            &lt;input type=&quot;number&quot; placeholder=&quot;amount&quot; ng-model=&quot;receipt.amount&quot;&gt;
+          &lt;/label&gt;
+          &lt;label class=&quot;item item-input&quot;&gt;
+            &lt;textarea placeholder=&quot;notes&quot; style=&quot;height: 200px;&quot; ng-model=&quot;receipt.notes&quot;&gt;&lt;/textarea&gt;
+          &lt;/label&gt;
+          &lt;button class=&quot;item button button-block button-balanced&quot; ng-click=&quot;save(receipt)&quot;&gt;Save&lt;/button&gt;
+        &lt;/div&gt;
+      &lt;/ion-content&gt;
+    &lt;/ion-view&gt;</p>
 </section>
   </div>
   <div class="slide hidden" id="slide-12">
-    <section class="slide-content"><h2 id="build-app">Build App</h2>
-<pre><code>cordova build ios</code></pre>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-13">
-    <section class="slide-content"><h2 id="emulate-app">Emulate App</h2>
-<pre><code>cordova emulate ios</code></pre>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-14">
-    <section class="slide-content"><p>fin</p>
-</section>
-  </div>
-  <div class="slide hidden" id="slide-15">
     <section class="slide-content"><div class="author">
   <h1 class="name">Tom Wilson</h1>
     <h3 class="twitter">

@@ -1,10 +1,6 @@
 module.exports = function ($scope, db, underscore, $state, $ionicPopup) {
   var _ = require('underscore');
 
-  db.sync('https://admin:admin@myawesomecouch.iriscouch.com:6984/receipts', {
-    live: true
-  });
-
   $scope.$on('RECEIPT:CREATE', function(e, receipt) {
     //$ionicLoading.show();
     receipt.type = 'receipt';

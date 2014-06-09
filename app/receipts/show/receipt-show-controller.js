@@ -14,7 +14,7 @@ module.exports = function($scope, db, $stateParams) {
     });
 
   $scope.showPhoto = function() {
-    $ionicPopup.showAlert({
+    $ionicPopup.alert({
       title: 'Receipt Photo',
       template: '<image ng-src="{{photo}}" />'
     });

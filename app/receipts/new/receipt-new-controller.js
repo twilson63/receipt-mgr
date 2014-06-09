@@ -3,7 +3,7 @@ module.exports = function($scope, $ionicPopup) {
 
   $scope.getImage = function() {
     navigator.camera.getPicture(onSuccess, onError, {
-      quality: 10,
+      quality: 50,
       destinationType: navigator.camera.DestinationType.DATA_URL
     });
 
@@ -25,6 +25,7 @@ module.exports = function($scope, $ionicPopup) {
     }
   };
 
+  // save object by emit a create request
   $scope.save = function(receipt) {
     $scope.$emit('RECEIPT:CREATE', receipt);
   };
