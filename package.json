@@ -1,6 +1,6 @@
 {
   "name": "receipt-mgr",
-  "version": "0.0.0",
+  "version": "0.0.33",
   "scripts": {
     "install": "bower install",
     "start": "atomify -d",
@@ -35,5 +35,17 @@
   },
   "devDependencies": {
     "tap": "^0.4.9"
-  }
+  },
+  "description": "Receipt Manager is a mobile application that allows you to capture and track receipts for expenses.",
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twilson63/receipt-mgr.git"
+  },
+  "author": "Tom Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twilson63/receipt-mgr/issues"
+  },
+  "homepage": "https://github.com/twilson63/receipt-mgr"
 }

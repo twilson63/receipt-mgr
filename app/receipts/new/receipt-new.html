@@ -1,16 +1,8 @@
 <ion-view title="New Receipt" right-buttons="rightButtons">
   <ion-content class="has-header">
     <div class="list list-inset">
-      <div class="item">
-        <p>Document your receipt by taking a photo of the receipt and
-          adding the amount to the form.
-        </p>
-      </div>
-      <div class="item">
-        <button class="button button-block icon ion-ios7-camera" ng-click="getImage()">
-          Capture Receipt
-        </button>
-        <image style="height: 64px; width:64px;" ng-src="{{imageSrc}}" ng-show="imageSrc" />
+      <div class="item item-text-wrap">
+        Document your receipt by taking a photo of the receipt and adding the amount to the form.
       </div>
       <div class="item item-input-inset">
         <label class="item-input-wrapper">
@@ -24,7 +16,15 @@
       <label class="item item-input">
         <textarea placeholder="notes" style="height: 75px;" ng-model="receipt.notes"></textarea>
       </label>
-      <button class="item button button-block button-balanced" ng-click="save(receipt)">Save</button>
+      <div class="item">
+        <button class="button button-block icon ion-ios7-camera" ng-click="getImage()">
+          Capture Receipt
+        </button>
+      </div>
+      <button class="item button button-block button-balanced" ng-click="save(receipt)" ng-disabled="!imageSrc">Save</button>
+      <div class="item">
+        <image style="height: 64px; width:64px;" ng-src="{{imageSrc}}" ng-show="imageSrc" />
+      </div>
     </div>
   </ion-content>
 </ion-view>

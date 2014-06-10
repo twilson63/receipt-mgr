@@ -19,7 +19,8 @@ var domify = require('domify');
 var app = module.exports = function(ng) {
   return ng.module('receiptMgr', ['ionic',
     /* Add App Specific Modules here */
-    require('./receipts')(ng).name
+    require('./receipts')(ng).name,
+    require('./about')(ng).name
   ])
     .config(function($urlRouterProvider) {
       // default root

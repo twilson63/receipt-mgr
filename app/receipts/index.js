@@ -7,12 +7,16 @@ module.exports = function(ng) {
   return ng.module('receipts', [])
     .config(require('./config'))
     .constant('underscore', underscore)
-    .factory('db', function() {
-      var db = pouchdb('receipts');
-      // db.sync('https://admin:admin@myawesomecouch.iriscouch.com:6984/receipts', {
-      //   live: true
-      // });
-      return db;
+    .factory('db', function($window) {
+      //if (!$window.cblite) {
+        //var db = pouchdb('receipts');
+        //db.sync('https://admin:admin@myawesomecouch.iriscouch.com:6984/receipts', {
+        //  live: true
+        //});
+        var db = pouchdb('https://admin:admin@myawesomecouch.iriscouch.com:6984/receipts');
+        return db;
+      //}
+
     })
     .factory('place', function($http, $q) {
       var reverse = 'http://nominatim.openstreetmap.org/reverse';

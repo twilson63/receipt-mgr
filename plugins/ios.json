@@ -36,6 +36,48 @@
                             "xml": "false",
                             "count": 1
                         }
+                    ],
+                    "libsqlite3.dylib": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "libstdc++.dylib": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "libicucore.dylib": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "libz.dylib": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "Security.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "CFNetwork.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
+                    ],
+                    "SystemConfiguration.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        }
                     ]
                 }
             },
@@ -46,6 +88,12 @@
                             "xml": "<feature name=\"Camera\"><param name=\"ios-package\" value=\"CDVCamera\" /></feature>",
                             "count": 1
                         }
+                    ],
+                    "/widget": [
+                        {
+                            "xml": "<feature name=\"CBLite\"><param name=\"ios-package\" value=\"CBLite\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        }
                     ]
                 }
             }
@@ -54,6 +102,9 @@
     "installed_plugins": {
         "org.apache.cordova.camera": {
             "PACKAGE_NAME": "io.cordova.hellocordova"
+        },
+        "com.couchbase.lite.phonegap": {
+            "PACKAGE_NAME": "com.jackhq.receiptmgr"
         }
     },
     "dependent_plugins": {}

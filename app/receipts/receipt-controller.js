@@ -5,6 +5,9 @@ module.exports = function ($scope, db, underscore, $state, $ionicPopup) {
     //$ionicLoading.show();
     receipt.type = 'receipt';
     receipt.date = new Date();
+    // I could post to the cloud
+    // then replicate local without
+    // attachments
     db.post(receipt).then(function(doc) {
       $ionicPopup.alert({
         title: 'Captured!'

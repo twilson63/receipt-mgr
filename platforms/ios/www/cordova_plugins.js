@@ -27,12 +27,20 @@ module.exports = [
         "clobbers": [
             "CameraPopoverHandle"
         ]
+    },
+    {
+        "file": "plugins/com.couchbase.lite.phonegap/www/cblite.js",
+        "id": "com.couchbase.lite.phonegap.CouchbaseLite",
+        "clobbers": [
+            "window.cblite"
+        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "org.apache.cordova.camera": "0.2.9"
+    "org.apache.cordova.camera": "0.2.9",
+    "com.couchbase.lite.phonegap": "1.0.0"
 }
 // BOTTOM OF METADATA
 });

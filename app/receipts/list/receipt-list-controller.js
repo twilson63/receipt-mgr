@@ -18,4 +18,12 @@ module.exports = function($scope, db, underscore, $state) {
       $state.go('receipts.new');
     }
   }];
+
+  $scope.leftButtons = [{
+    type: 'button-icon',
+    content: '<i class="icon ion-ios7-information-outline"></i>',
+    tap: function(e) {
+      $state.go('about');
+    }
+  }];
 };

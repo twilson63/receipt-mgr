@@ -1,0 +1,29 @@
+<ion-view title="Receipts" right-buttons="rightButtons">
+  <ion-content class="has-header">
+    <ion-list>
+      <ion-item>
+        <h1>About ReceiptMgr</h1>
+      </ion-item>
+      <ion-item class="item-text-wrap">
+        {{description}}
+
+      </ion-item>
+      <ion-item>
+        <h3>Version</h3>
+        <p>{{version}}</p>
+      </ion-item>
+      <ion-item>
+        <h3>Author</h3>
+        <p>{{author}}</p>
+      </ion-item>
+      <ion-item>
+        <h3>Support</h3>
+        <button class="button button-block">Contact</button>
+      </ion-item>
+      <ion-item>
+        <a class="button button-block button-positive" ui-sref="receipts.list">Return</a>
+      </ion-item>
+
+    </ion-list>
+  </ion-content>
+</ion-view>

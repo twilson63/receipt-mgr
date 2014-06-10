@@ -108,3 +108,83 @@ You could find it at the following address https://developer.apple.com/icloud/do
 
 2014-06-09 08:22:11.405 ReceiptMgr[25333:a0b] Resetting plugins due to page load.
 2014-06-09 08:22:11.739 ReceiptMgr[25333:a0b] Finished load of: file:///Users/twilson63/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/86BEE565-0CF3-4F07-8A17-A3503C791EF6/ReceiptMgr.app/www/index.html#/receipts/
+objc[31597]: Class JSWTFMainThreadCaller is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore and /Users/twilson63/Library/Application Support/iPhone Simulator/7.0.3/Applications/86BEE565-0CF3-4F07-8A17-A3503C791EF6/ReceiptMgr.app/ReceiptMgr. One of the two will be used. Which one is undefined.
+2014-06-09 16:41:18.562 ReceiptMgr[31597:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-09 16:41:18.610 ReceiptMgr[31597:a0b] Unlimited access to network resources
+2014-06-09 16:41:18.620 ReceiptMgr[31597:a0b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-09 16:41:18.948 ReceiptMgr[31597:a0b] Launching Couchbase Lite...
+2014-06-09 16:41:19.015 ReceiptMgr[31597:a0b] Couchbase Lite url = http://lite.couchbase./
+2014-06-09 16:41:19.016 ReceiptMgr[31597:a0b] [CDVTimer][cblite] 67.414999ms
+2014-06-09 16:41:19.016 ReceiptMgr[31597:a0b] [CDVTimer][TotalPluginStartup] 68.104982ms
+2014-06-09 16:41:19.578 ReceiptMgr[31597:a0b] Resetting plugins due to page load.
+2014-06-09 16:41:20.128 ReceiptMgr[31597:a0b] Finished load of: file:///Users/twilson63/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/86BEE565-0CF3-4F07-8A17-A3503C791EF6/ReceiptMgr.app/www/index.html#/receipts/
+objc[31875]: Class JSWTFMainThreadCaller is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore and /Users/twilson63/Library/Application Support/iPhone Simulator/7.0.3/Applications/86BEE565-0CF3-4F07-8A17-A3503C791EF6/ReceiptMgr.app/ReceiptMgr. One of the two will be used. Which one is undefined.
+2014-06-09 17:04:10.604 ReceiptMgr[31875:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-09 17:04:10.626 ReceiptMgr[31875:a0b] Unlimited access to network resources
+2014-06-09 17:04:10.634 ReceiptMgr[31875:a0b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-09 17:04:10.665 ReceiptMgr[31875:a0b] Launching Couchbase Lite...
+2014-06-09 17:04:10.670 ReceiptMgr[31875:a0b] Couchbase Lite url = http://lite.couchbase./
+2014-06-09 17:04:10.674 ReceiptMgr[31875:a0b] [CDVTimer][cblite] 9.380996ms
+2014-06-09 17:04:10.675 ReceiptMgr[31875:a0b] [CDVTimer][TotalPluginStartup] 10.881007ms
+2014-06-09 17:04:11.087 ReceiptMgr[31875:a0b] Resetting plugins due to page load.
+2014-06-09 17:04:11.622 ReceiptMgr[31875:a0b] Finished load of: file:///Users/twilson63/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/86BEE565-0CF3-4F07-8A17-A3503C791EF6/ReceiptMgr.app/www/index.html#/receipts/
+objc[32056]: Class JSWTFMainThreadCaller is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore and /Users/twilson63/Library/Application Support/iPhone Simulator/7.0.3/Applications/86BEE565-0CF3-4F07-8A17-A3503C791EF6/ReceiptMgr.app/ReceiptMgr. One of the two will be used. Which one is undefined.
+2014-06-09 17:06:16.367 ReceiptMgr[32056:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-09 17:06:16.388 ReceiptMgr[32056:a0b] Unlimited access to network resources
+2014-06-09 17:06:16.410 ReceiptMgr[32056:a0b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-09 17:06:16.453 ReceiptMgr[32056:a0b] Launching Couchbase Lite...
+2014-06-09 17:06:16.459 ReceiptMgr[32056:a0b] Couchbase Lite url = http://lite.couchbase./
+2014-06-09 17:06:16.460 ReceiptMgr[32056:a0b] [CDVTimer][cblite] 6.826997ms
+2014-06-09 17:06:16.461 ReceiptMgr[32056:a0b] [CDVTimer][TotalPluginStartup] 7.766962ms
+2014-06-09 17:06:16.578 ReceiptMgr[32056:a0b] Resetting plugins due to page load.
+2014-06-09 17:06:17.125 ReceiptMgr[32056:a0b] Finished load of: file:///Users/twilson63/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/86BEE565-0CF3-4F07-8A17-A3503C791EF6/ReceiptMgr.app/www/index.html#/receipts/
+objc[32251]: Class JSWTFMainThreadCaller is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore and /Users/twilson63/Library/Application Support/iPhone Simulator/7.0.3/Applications/86BEE565-0CF3-4F07-8A17-A3503C791EF6/ReceiptMgr.app/ReceiptMgr. One of the two will be used. Which one is undefined.
+2014-06-09 17:19:42.356 ReceiptMgr[32251:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-09 17:19:42.377 ReceiptMgr[32251:a0b] Unlimited access to network resources
+2014-06-09 17:19:42.393 ReceiptMgr[32251:a0b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-09 17:19:42.434 ReceiptMgr[32251:a0b] Launching Couchbase Lite...
+2014-06-09 17:19:42.439 ReceiptMgr[32251:a0b] Couchbase Lite url = http://lite.couchbase./
+2014-06-09 17:19:42.440 ReceiptMgr[32251:a0b] [CDVTimer][cblite] 6.078005ms
+2014-06-09 17:19:42.441 ReceiptMgr[32251:a0b] [CDVTimer][TotalPluginStartup] 7.102966ms
+2014-06-09 17:19:42.853 ReceiptMgr[32251:a0b] Resetting plugins due to page load.
+2014-06-09 17:19:43.238 ReceiptMgr[32251:a0b] Finished load of: file:///Users/twilson63/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/86BEE565-0CF3-4F07-8A17-A3503C791EF6/ReceiptMgr.app/www/index.html#/receipts/
+objc[34184]: Class JSWTFMainThreadCaller is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore and /Users/twilson63/Library/Application Support/iPhone Simulator/7.0.3/Applications/86BEE565-0CF3-4F07-8A17-A3503C791EF6/ReceiptMgr.app/ReceiptMgr. One of the two will be used. Which one is undefined.
+2014-06-10 18:32:44.608 ReceiptMgr[34184:a0b] Multi-tasking -> Device: YES, App: YES
+2014-06-10 18:32:44.666 ReceiptMgr[34184:a0b] Unlimited access to network resources
+2014-06-10 18:32:44.675 ReceiptMgr[34184:a0b] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-06-10 18:32:44.861 ReceiptMgr[34184:a0b] Launching Couchbase Lite...
+2014-06-10 18:32:44.866 ReceiptMgr[34184:a0b] Couchbase Lite url = http://lite.couchbase./
+2014-06-10 18:32:44.867 ReceiptMgr[34184:a0b] [CDVTimer][cblite] 5.782008ms
+2014-06-10 18:32:44.867 ReceiptMgr[34184:a0b] [CDVTimer][TotalPluginStartup] 6.433010ms
+2014-06-10 18:32:45.177 ReceiptMgr[34184:a0b] Resetting plugins due to page load.
+2014-06-10 18:32:45.598 ReceiptMgr[34184:a0b] Finished load of: file:///Users/twilson63/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/86BEE565-0CF3-4F07-8A17-A3503C791EF6/ReceiptMgr.app/www/index.html#/receipts/
