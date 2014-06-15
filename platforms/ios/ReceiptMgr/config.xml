@@ -22,10 +22,6 @@
     <feature name="Camera">
         <param name="ios-package" value="CDVCamera" />
     </feature>
-    <feature name="CBLite">
-        <param name="ios-package" value="CBLite" />
-        <param name="onload" value="true" />
-    </feature>
     <name>ReceiptMgr</name>
     <description>
         Manage/Track your Receipts

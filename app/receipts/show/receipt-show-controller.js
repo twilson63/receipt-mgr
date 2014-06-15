@@ -1,12 +1,7 @@
-module.exports = function($scope, db, $stateParams, $ionicPopup) {
-  db.get($stateParams.id)
-    .then(function(doc) {
-      $scope.$apply(function() {
-        $scope.receipt = doc;
-      });
-    });
+module.exports = function($scope, receipt, $ionicPopup) {
+  $scope.receipt = receipt;
 
-  db.get($stateParams.id, { attachments: true })
+  db.get(receipt._id, { attachments: true })
     .then(function(doc) {
       $scope.$apply(function() {
         $scope.photo = true;
@@ -41,9 +36,9 @@ module.exports = function($scope, db, $stateParams, $ionicPopup) {
 
   $scope.rightButtons = [{
     type: 'button-icon',
-    content: '<i class="icon ion-close-circled"></i>',
+    content: '<i class="icon ion-edit"></i>',
     tap: function(e) {
-      $scope.$emit('RECEIPT:LIST');
+      $scope.$emit('RECEIPT:EDIT', $scope.receipt._id);
     }
   }];
 

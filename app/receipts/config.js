@@ -23,6 +23,22 @@ module.exports = function($stateProvider) {
     .state('receipts.show', {
       url: '/:id',
       controller: require('./show/receipt-show-controller'),
-      template: require('./show/receipt-show.html')
+      template: require('./show/receipt-show.html'),
+      resolve: {
+        receipt: function($stateParams, db) {
+          return db.get($stateParams.id);
+        }
+      }
+    })
+    .state('receipts.edit', {
+      url: '/:id/edit',
+      controller: require('./show/receipt-edit-controller'),
+      template: require('./show/receipt-edit.html'),
+      resolve: {
+        receipt: function($stateParams, db) {
+          return db.get($stateParams.id);
+        }
+      }
     });
+
 };
